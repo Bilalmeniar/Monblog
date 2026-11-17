@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 30px;
+}
+
+.grille-articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.carte-article {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.etiquette-categorie.bleu {
+    background-color: blue;
+    color: white;
+}
+
+.etiquette-categorie.rose {
+    background-color: pink;
+    color: black;
+}
+
+.badge-special {
+    display: block;
+    width: fit-content;
+    background-color: gold;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+}
