@@ -1,27 +1,31 @@
 
 <?php
 
-$articles = [
+$projets = [
     [
-        'id' => 1,
-        'titre' => 'Comment structurer ses composants UI avec Atomic Design ?',
-        'contenu' => 'Découvrez les concepts fondamentaux de la méthode Atomic Design...',
-        'image' => 'article-example.png',
-        'date_creation' => '2026-02-14',
-        'categorie_libelle' => 'Développement',
-        'categorie_couleur' => 'bleu'
+        'titre' => 'Mon premier site web',
+        'description' => 'Un site web créé avec HTML et CSS.',
+        'technologies' => 'HTML, CSS'
+    ],
+
+    [
+        'titre' => 'Mon Portfolio',
+        'description' => 'Mon portfolio personnel de développeur web.',
+        'technologies' => 'HTML, CSS, PHP'
+    ],
+
+    [
+        'titre' => 'Mon Blog',
+        'description' => 'Un blog dynamique créé avec PHP.',
+        'technologies' => 'HTML, CSS, PHP'
     ],
     [
-        'id' => 2,
-        'titre' => 'Maîtriser les micro-interactions UX',
-        'contenu' => 'Une interface belle n\'est pas suffisante...',
-        'image' => 'article-example.png',
-        'date_creation' => '2026-02-10',
-        'categorie_libelle' => 'Design UI/UX',
-        'categorie_couleur' => 'rose'
+        'titre' => 'Mon application mobile',
+        'description' => 'Mon application pour mes taches',
+        'technologies' => 'HTML, CSS, PHP',
     ]
 ];
 
-require_once __DIR__ . '/index.template.php';
+require_once __DIR__ . '/index-template.php';
 
 ?>

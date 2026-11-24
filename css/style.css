@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+    margin: 0;
+    padding: 40px;
+}
+h1{
+    text-align: center;
+    color: #512c2c;
+}
+h2{
+    margin-top: 40px;
+}
+.projets{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(189, 210, 214);
+    padding: 25px 40px;
+    align-items: center;
+}
+header h1{
+    font-size: 24px;
+    color: #512c2c;
+}
+header nav{
+    display: flex;
+    gap: 20px;
+}
+header nav a{
+    text-decoration: none;
+    color: #222222;
+}
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ffffff;
+}
+.hero h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+.projets{
+    padding: 60px 40px;
+}
+.projets h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.grille-projets{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.projet{
+    background-color: rgb(170, 211, 230);
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+    transition: 0.3s ease;
+}
+.projet h3{
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.projet p{
+    color: #666666;
+    line-height: 1,6;
+}
+.technologies{
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.projet:hover{
+    transform: translateY(-5px);
+}
+.footer {
+    background-color: #222222;
+    color: white;
+    padding: 25px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+
+
